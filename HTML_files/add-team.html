@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Team - Football Management System</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>⚽ Football Management System</h1>
+        <nav>
+            <a href="teams.html">Teams</a>
+            <a href="add-team.html">Add Team</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Add Team</h2>
+
+        <form action="/submit" method="post" class="form">
+            <div class="field">
+                <label for="team_name">Team Name</label>
+                <input type="text" id="team_name" name="team_name" placeholder="e.g. Zamalek" required>
+            </div>
+
+            <div class="field">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" placeholder="e.g. Egypt" required>
+            </div>
+
+            <div class="field">
+                <label for="continent">Continent</label>
+                <input type="text" id="continent" name="continent" list="continent-list" placeholder="Choose continent">
+                <datalist id="continent-list">
+                    <option value="Africa"></option>
+                    <option value="Europe"></option>
+                    <option value="Asia"></option>
+                    <option value="North America"></option>
+                    <option value="South America"></option>
+                    <option value="Oceania"></option>
+                </datalist>
+            </div>
+
+            <fieldset class="field">
+                <legend>Type</legend>
+                <input type="radio" id="club" name="type" value="club" required>
+                <label for="club">Club</label>
+
+                <input type="radio" id="national" name="type" value="national">
+                <label for="national">National</label>
+            </fieldset>
+
+            <div class="actions">
+                <button type="submit">Save Team</button>
+                <a href="teams.html">Cancel</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
