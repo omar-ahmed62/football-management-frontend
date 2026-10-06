@@ -23,6 +23,10 @@
     }
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 10px;
     background-color: var(--bg);
@@ -198,4 +202,27 @@ dd {
     margin-bottom: 12px;
     color: var(--primary);
     font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .sub-header {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    dl {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
 }
