@@ -29,16 +29,14 @@ project/
 ```
 
 ## Run it
-
-No build step. Open `HTML_files/teams.html` in a browser.
-
+- project link: [football-management-frontend](https://omar-ahmed62.github.io/football-management-frontend/HTML_files/teams.html)
 
 
 ##  Next Steps & Roadmap
 
 ### 1. Project Evolution (Short-Term)
-- [ ] **Mobile Responsiveness:** Implement CSS Media Query to ensure the entire layout adapts flawlessly to mobile screens.
-- [ ] **Theming via CSS Variables:** Refactor color properties using CSS Variables (`--primary-color`, `--bg-color`, etc.) to implement a **Dark Mode** toggle.
+- [x] **Mobile Responsiveness:** Implement CSS Media Query to ensure the entire layout adapts flawlessly to mobile screens.
+- [x] **Theming via CSS Variables:** Refactor color properties using CSS Variables (`--primary-color`, `--bg-color`, etc.) to implement a **Dark Mode** toggle.
 
 ### 2. Learning & Skill Upgrading (Long-Term)
 - [ ] Bootstrap components for the layout
@@ -49,4 +47,6 @@ No build step. Open `HTML_files/teams.html` in a browser.
 
 ## Related
 
-Backend (C# console app with ADO.NET and EF Core versions): https://github.com/omar-ahmed62/Football-Management-System-ConsoleApp
+Backend (C# console app with ADO.NET and EF Core versions) => [Football-Management-System-ConsoleApp](https://github.com/omar-ahmed62/Football-Management-System-ConsoleApp)
+
+
